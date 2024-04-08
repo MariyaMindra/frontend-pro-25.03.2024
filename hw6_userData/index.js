@@ -2,7 +2,7 @@ const userYearOfBirth = prompt('Enter your year of birth:');
 const userCity = prompt('Enter your city of residence:');
 const userFavoriteSport = prompt('Enter your favorite sport:');
 
-if (userYearOfBirth == null && userCity == null && userFavoriteSport == null)
+if (userYearOfBirth === null && userCity === null && userFavoriteSport === null)
 {
     alert('Sorry, but you did not provide any information. Reload the page.');
 } else {
