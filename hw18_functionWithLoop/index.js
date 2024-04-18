@@ -1,6 +1,6 @@
 function askForNumber(cb){
     let userNumber;
-    for (let i = 0; i <= 10; i++)
+    for (let i = 0; i < 10; i++)
     {
         userNumber = prompt ('Enter a number greater than 100: ');
         if (userNumber !== null && +userNumber > 100)
