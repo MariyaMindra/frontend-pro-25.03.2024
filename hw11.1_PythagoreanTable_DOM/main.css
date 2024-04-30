@@ -1,0 +1,15 @@
+body{
+    margin-left: 20px;
+}
+.multiply {
+    border: 1px solid #000;
+}
+td {
+    border: 1px solid #000;
+    block-size: 20px;
+    text-align: center;
+    padding: 8px;
+}
+.firstRow, .firstColumn {
+    background-color: #f2f2f2;
+}
