@@ -3,9 +3,9 @@ function getRandomInt(){
 }
 
 let img = document.getElementById('image');
+img.style.width = '50vw';
+img.style.height = 'auto';
 let randomNumber = 1;
-
-img.style.height = '200px';
 
 const button = document.querySelector('button');
 button.onclick = () => {
