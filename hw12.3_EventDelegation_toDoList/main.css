@@ -1,0 +1,21 @@
+.list li {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+.input {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.button {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
