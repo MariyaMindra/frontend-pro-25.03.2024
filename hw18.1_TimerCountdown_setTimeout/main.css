@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.2;
+    font-size: 25px;
+}
+
+.timersContainer {
+    margin: 25px;
+    padding: 15px;
+
+}
+
+.timerForm-container {
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+}
+
+.timer div {
+    margin: 15px;
+}
+
+.disableBtn {
+    display: none;
+}
+
+.activeBtn {
+    display: block;
+}
+
+.timeIsUp {
+    background-color: #ff0000;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.inputValue {
+    font-size: 18px;
+    padding: 10px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <form id="timerForm" class = 'timerForm-container'>
+        <h1>Add timer</h1>
+        <label for="minutesId" >minutes</label>
+        <input type="number" id="minutesId" min="0" max="59" value="0" class="inputValue"/>
+        <label for="secondsId" >seconds</label>
+        <input type="number" id="secondsId" min="0" max="59" value="1" class="inputValue"/>
+        <button id="newTimerBtn">Start</button>
+    </form>
+    <div id="timersContainer" class = "timersContainer">
+        <h2>Timers</h2>
+    </div>
+</body>
+</html>
