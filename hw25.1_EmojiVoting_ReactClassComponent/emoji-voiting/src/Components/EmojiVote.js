@@ -39,10 +39,8 @@ export class EmojiVote extends Component {
                     vote: prevState.votes[emojiKey].vote + 1
                 }
             };
-            localStorage.setItem('emojiVotes', JSON.stringify(votes));
             return {votes} ;
         });
-
         localStorage.setItem('emojiVotes', JSON.stringify(this.state.votes));
     }
 
